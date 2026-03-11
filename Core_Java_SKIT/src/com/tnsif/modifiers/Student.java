@@ -1,11 +1,13 @@
 package com.tnsif.modifiers;
 
 public class Student {
-    int sid;
-	String sname;
+   private int sid;
+	static protected String sname;
 	String address;
+	float percentage;
+	public char gender;
 	
 	void display() {
-		System.out.println("Student id is "+sid+"Student name is"+sname+"Student adress is"+address);
+		System.out.println("Student id is "+sid+"Student name is"+sname+"Student adress is"+address+percentage+gender);
 	}
 }
