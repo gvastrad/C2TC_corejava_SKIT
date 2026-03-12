@@ -1,7 +1,7 @@
 package com.tnsif.modifiers;
 
 public class Student {
-   private int sid;
+    private int sid;
 	static protected String sname;
 	String address;
 	float percentage;

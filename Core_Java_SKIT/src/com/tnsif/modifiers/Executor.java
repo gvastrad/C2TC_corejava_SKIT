@@ -14,7 +14,5 @@ public class Executor {
 	    s2.sname="Geetha";
 	    s2.address="Mumbai";
 	    s2.display();
-
 	}
-
 }
