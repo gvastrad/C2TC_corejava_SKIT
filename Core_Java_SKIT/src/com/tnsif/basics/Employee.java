@@ -5,6 +5,7 @@ public class Employee {
 private int eid;
 private String name;
 private float salary;
+private char gender;
 
 public int getEid() {
 	return eid;
@@ -24,9 +25,31 @@ public float getSalary() {
 public void setSalary(float salary) {
 	this.salary = salary;
 }
-@Override
-public String toString() {
-	return "Employee [eid=" + eid + ", name=" + name + ", salary=" + salary + "]";
+
+public char getGender() {
+	return gender;
+}
+public void setGender(char gender) {
+	this.gender = gender;
 }
 
+
+public Employee(int eid, String name, float salary, char gender) {
+	this.eid = eid;
+	this.name = name;
+	this.salary = salary;
+	this.gender = gender;
+}
+
+
+public Employee() {
+	this.eid=10;
+	this.name="ABC";
+	this.salary=234455;
+	this.gender='m';
+}
+@Override
+public String toString() {
+	return "Employee [eid=" + eid + ", name=" + name + ", salary=" + salary + ", gender=" + gender + "]";
+}
 }
