@@ -32,24 +32,10 @@ public char getGender() {
 public void setGender(char gender) {
 	this.gender = gender;
 }
-
-
-public Employee(int eid, String name, float salary, char gender) {
-	this.eid = eid;
-	this.name = name;
-	this.salary = salary;
-	this.gender = gender;
-}
-
-
 public Employee() {
-	this.eid=10;
-	this.name="ABC";
-	this.salary=234455;
-	this.gender='m';
+	super();
 }
-@Override
-public String toString() {
-	return "Employee [eid=" + eid + ", name=" + name + ", salary=" + salary + ", gender=" + gender + "]";
-}
+
+
+
 }

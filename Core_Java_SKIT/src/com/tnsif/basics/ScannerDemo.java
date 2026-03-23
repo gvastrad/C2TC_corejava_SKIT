@@ -13,6 +13,7 @@ public class ScannerDemo {
 		 * System.out.println("Enter the gender"); emp.setGender(sc.next().charAt(1));
 		 */
 		Employee emp=new Employee();
+		System.out.println(emp.hashCode());
 		System.out.println(emp);
 	
 	}
